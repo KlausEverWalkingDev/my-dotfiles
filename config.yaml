@@ -29,6 +29,15 @@ dotfiles:
   f_ssh_config:
     src: .ssh/config
     dst: ~/.ssh/config
+  f_config_yay_config.json:
+    src: .config/yay/config.json
+    dst: ~/.config/yay/config.json
+  f_sbclrc:
+    src: .sbclrc
+    dst: ~/.sbclrc
+  f_lem_init.lisp:
+    src: .lem/init.lisp
+    dst: ~/.lem/init.lisp
 profiles:
   KLAUSEWDEV-WS:
     dotfiles:
@@ -38,3 +47,6 @@ profiles:
     - f_tool-versions
     - f_gnupg_gpg-agent.conf
     - f_ssh_config
+    - f_config_yay_config.json
+    - f_sbclrc
+    - f_lem_init.lisp
