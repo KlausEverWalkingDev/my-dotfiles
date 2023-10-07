@@ -12,7 +12,7 @@ alias yay='yay --color=always'
 
 PS1='\n\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]$\[\033[00m\] '
 
-export PATH=$HOME/.local/bin:$HOME/.qlot/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.bun/bin:$HOME/.qlot/bin:$PATH
 
 export BROWSER=wslview
 export EDITOR=nvim
