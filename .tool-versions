@@ -4,4 +4,4 @@ nodejs 20.8.0
 python 3.13-dev
 sbcl 2.3.9
 yay 12.1.3
-zig master
+zig 0.12.0-dev.798+5a4a5875d
