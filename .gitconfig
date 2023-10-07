@@ -1,0 +1,32 @@
+[alias]
+  	dft = difftool
+[clean]
+  	requireForce = true
+[commit]
+	gpgsign = true
+[core]
+	editor = lvim
+	pager = delta
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
+[delta]
+  	line-numbers = true
+[diff]
+  	tool = difftastic
+[difftool]
+  	prompt = false
+[difftool "difftastic"]
+  	cmd = difft "$LOCAL" "$REMOTE"
+[gpg]
+	program = gpg2
+[init]
+	defaultBranch = release
+[pager]
+  	difftool = true
+[push]
+	autoSetupRemote = true
+[user]
+	email = klauseverwalkingdev@yandex.com
+	name = Klaus Ferreira
+	signingKey = 8F3534D2BEA89C7F
+
