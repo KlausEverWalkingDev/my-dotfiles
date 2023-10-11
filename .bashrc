@@ -29,3 +29,5 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
 . "$HOME/.local/dotfiles/dotdrop/completion/dotdrop-completion.bash"
+
+source <(ng completion script)
