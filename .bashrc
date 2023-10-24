@@ -18,6 +18,10 @@ export BROWSER=wslview
 export EDITOR=nvim
 export GNUPGHOME=$HOME/.gnupg
 export GPG_TTY="${TTY:-"$(tty)"}"
+export GRADLE_HOME=$HOME/.asdf/installs/gradle/8.4
+export JAVA_HOME=$HOME/.asdf/installs/java/graalvm-community-20.0.2
+export M2_HOME=$HOME/.asdf/installs/maven/3.9.5
+export MAVEN_HOME=$HOME~/.asdf/installs/maven/3.9.5
 export VISUAL=nvim
 
 unset SSH_AGENT_PID
